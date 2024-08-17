@@ -21,7 +21,11 @@
 
 ## 安装方式
 
-运行源码请在idea中直接克隆仓库并配置maven环境，然后使用生命周期插件clean后compile即可运行。在doc中存放本项目的文本文件，installer，jarpackage，application中存放了项目的安装、程序文件，值得注意的是，项目可以直接生成exe文件，但需要jre环境才能运行。
+运行源码请在idea中直接克隆仓库并配置maven环境，然后使用生命周期插件clean后compile即可运行。
+
+~~在doc中存放本项目的文本文件，installer，jarpackage，application中存放了项目的安装、程序文件。~~
+
+现在所有生成文件都已放在github release中。值得注意的是，项目可以直接生成exe文件，但需要jre环境才能运行。
 
 生成exe以及安装包文件所需的脚本文件均在config当中。通过exe4j以及inno分别调用脚本文件，并修改脚本文件当中的路径即可正常生成文件
 

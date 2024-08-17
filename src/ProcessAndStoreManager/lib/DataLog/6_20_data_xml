@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="ProducterAndConsumer" className="org.GUI.menus.ProducterAndConsumer">
+		<bean id="Producter" className="org.GUI.menus.Producter">
+			<property name="name" value="a"></property>
+			<xs:element name="ProduceItems" type="Pair">
+			<xs:simpleType name="valuelist">
+  			<xs:list itemType="xs:Pair"/>
+  			<field id="name">
+  				<value>"a1"</value> 
+  			<field id="numbers">
+  				<value>"10"</value>
+			</xs:simpleType>
+</xs:schema>
+	</bean>
+
+	<bean id="BankersAlgorithmSimulation" className="org.GUI.menus.BankersAlgorithmSimulation">
+		<array>
+		<matrix>
+	    <row>
+	     	<element>1</element>
+	     	<element>2</element>
+	     	<element>3</element>
+	    </row>
+	    <row>
+		     <element>1</element>
+		     <element>5</element>
+		     <element>6</element>
+	    </row>
+	    <row>
+		     <element>7</element>
+		     <element>8</element>
+		     <element>9</element>
+	    </row>
+	  	</array>
+	 	<array>
+	    <row>
+	     	<element>10</element>
+	     	<element>11</element>
+	     	<element>12</element>
+	    </row>
+	    <row>
+		     <element>13</element>
+		     <element>14</element>
+		     <element>15</element>
+	    </row>
+	    <row>
+		     <element>16</element>
+		     <element>17</element>
+		     <element>18</element>
+	    </row>
+	  	</array>
+	 	<array>
+	    <row>
+		     <element>19</element>
+		     <element>20</element>
+		     <element>21</element>
+	    </row>
+	    <row>
+	     	<element>22</element>
+	     	<element>23</element>
+	     	<element>24</element>
+	    </row>
+	    <row>
+	     	<element>25</element>
+	     	<element>26</element>
+	     	<element>27</element>
+	    </row>
+	  </array>
+	</matrix>
+	</bean>
+	<bean id="OSD2" className="org.GUI.Form.OSD2">
+		<property name="timeQuantum" value="1.00"></property>
+	</bean>
+</beans>
